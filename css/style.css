@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+
+.general {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+	width: 400px;
+	margin: 6px;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: 0 0 6px 0 grey;
+}
+
+.frame_head {
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	padding-left: 14px;
+	height: 32px;
+	background: #494949;
+	color: #FFF;
+	border-radius: 8px 8px 0 0;
+	display: flex;
+  	align-items: center
+}
+
+.frame_external {
+	border: 1px solid #494949;
+	background: #F2F2F2;
+	border-radius: 0 0 8px 8px;
+	padding: 14px;
+	padding-bottom: 12px;
+}
+
+.frame_internal {
+	width: auto;
+	height: 112px;
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	padding: 8px 44px;
+	border: 1px solid #D7D7D7;
+	background: white;
+	border-radius: 8px;
+}
+
+.indicator {
+	display: flex;
+	margin-top: 20px;
+}
+
+.reached {
+    position: relative;
+	font-size: 15px;
+	color: #7b7c79;
+}
+
+#line-container {
+	background: #cfd2d1;
+	position: relative;
+	padding: 2px;
+	padding-right: 14px;
+	padding-top: 3.5px;
+	padding-bottom: 10px;
+	margin-top: 2px;
+	margin-left: 22px; 
+    width: 138px;
+    height: 12px;
+}
+
+.target_container {
+	position: relative;
+	width: 56px;
+	height: 50px;
+	background: linear-gradient(to bottom, #a2a09d, #6f6f6f);
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 0 1px 0 grey;
+	top: -16px;
+}
+
+.target_head {
+	height: 20px;
+	width: 56px;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: Roboto, sans-serif;
+	border: 1px solid #868282;
+	color: #FFF;
+	border-radius: 3px 3px 0 0;
+	text-align: center;
+}
+
+.target_body {
+	height: 30px;
+	width: 56px;
+	font-size: 20px;
+	font-family: Roboto, sans-serif;
+	font-weight: 500;
+	padding-top: 2px;
+	border: 1px solid #a8a7ab;
+	color: #FFF;
+	border-radius: 0 0 3px 3px;
+  	text-align: center;
+}
+
+.progr_text_container {
+	position: absolute;
+	right: 31%;
+	top: 54%;
+}
+
+.progress_text {
+	position: absolute;
+	font-size: 15px;
+	color: #6f6f6f;
+	font-weight: 600;
+	text-align: center;
+	top: 100%;
+	right: -2px;
+}
+
+.infoBlock {
+	position: relative;
+	width: 340px;
+	left: -2%;
+}
+
+.info_text {
+	margin-left: 4px;
+	position: absolute;
+	top: 10%;
+	font-size: 14px;
+	color: #a2a09d;
+	font-weight: 600;
+}
